@@ -104,8 +104,8 @@ bed capacity, timetable clashes) enforced in the data layer rather than only in 
 **Requirements:** Python 3.10 or newer.
 
 ```bash
-git clone https://github.com/<your-username>/campus-analytics.git
-cd campus-analytics
+git clone https://github.com/suruthi-1/Campus-Analytics.git
+cd Campus-Analytics
 
 python -m venv venv
 venv\Scripts\activate            # Windows
@@ -213,7 +213,7 @@ not beat that baseline, and the app reports this openly instead of hiding it.
 ## Project structure
 
 ```
-campus-analytics/
+Campus-Analytics/
 ├── app.py              # the application, organised into clear sections
 ├── requirements.txt    # Python dependencies
 ├── README.md
@@ -255,7 +255,7 @@ pieces → pages → login and app shell.
 
 ## Author
 
-**Suruthi D**
+**Suruthi D** · [GitHub](https://github.com/suruthi-1)
 
 Built as a learning project to practise full-stack data applications: database design,
 validation, analytics and honest machine-learning evaluation.
