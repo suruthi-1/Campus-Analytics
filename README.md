@@ -155,29 +155,9 @@ Screenshots of the application will be added here to demonstrate the dashboard, 
 </details>
 
 
-## Getting started
-
-**Requirements:** Python 3.10 or newer.
-
-```bash
-git clone https://github.com/suruthi-1/Campus-Analytics.git
-cd Campus-Analytics
-
-python -m venv venv
-venv\Scripts\activate            # Windows
-# source venv/bin/activate       # macOS / Linux
-
-pip install -r requirements.txt
-python -m streamlit run app.py
-```
+## Try it in 2 minutes
 
 The app opens at `http://localhost:8501`.
-
-**First login:** username `admin`, password `Campus@123`. You are **forced to change the
-password** before any other module opens. To choose a different first-run password, set the
-`CAMPUS_ADMIN_PASSWORD` environment variable before the first launch.
-
-## Try it in 2 minutes
 
 1. Sign in and set your new password.
 2. Open **Admin Settings → Data → Load demo data**. This fills every module with sample records
