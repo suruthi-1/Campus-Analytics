@@ -20,36 +20,105 @@
 
 ---
 
-## Table of contents
+# Campus Analytics – College Performance Management System
 
-- [Overview](#overview)
-- [Features](#features)
-- [Screenshots](#screenshots)
-- [Getting started](#getting-started)
-- [Try it in 2 minutes](#try-it-in-2-minutes)
-- [Architecture](#architecture)
-- [Business rules](#business-rules)
-- [Security](#security)
-- [Machine-learning note](#machine-learning-note)
-- [Key engineering decisions](#key-engineering-decisions)
-- [Project structure](#project-structure)
-- [Troubleshooting](#troubleshooting)
-- [Limitations](#limitations)
-- [Roadmap](#roadmap)
-- [Author](#author)
-- [License](#license)
+A Streamlit-based college performance management system designed to help administrators monitor student records, academic performance, attendance, and institutional analytics through an interactive dashboard.
 
----
+## Project Overview
 
-## Overview
+Campus Analytics is a web-based application developed using Python and Streamlit. It provides a centralized platform for managing and analysing college-related information.
 
-Most college tools stop at student records. **Campus Analytics** manages the whole campus from a
-single admin portal and turns the data into insight: which students need support, which
-departments lag, where fees are overdue, and which books or equipment are out.
+The application aims to make academic monitoring and administrative data management easier through organized modules, interactive visualizations, and performance insights.
 
-It is a **16-page Streamlit application** backed by **SQLite**, with analytics in pandas and
-Plotly, input validation, secure admin login, and rule-based checks (fines, renewal limits,
-bed capacity, timetable clashes) enforced in the data layer rather than only in the interface.
+## Key Features
+
+- **Dashboard:** Overview of important college performance information.
+- **Student Records:** Add, view, edit, and manage student information.
+- **Academic Performance:** Monitor and analyse student academic results.
+- **Performance Analytics:** Explore academic trends through visualizations.
+- **Performance Prediction:** Explore student performance prediction.
+- **At-Risk Student Analysis:** Identify students who may need additional academic support.
+- **Reports:** View and export available analytical information.
+- **Admin Settings:** Manage available application settings.
+
+*Note: Features and modules depend on the functionality implemented in the current project version.*
+
+## Technology Stack
+
+| Technology | Purpose |
+|---|---|
+| Python | Core programming language |
+| Streamlit | Web application framework |
+| Pandas | Data handling and analysis |
+| Plotly | Interactive visualizations |
+| Machine Learning | Performance prediction functionality |
+
+## Project Structure
+
+```text
+Campus-Analytics/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+│
+├── data/
+│
+├── assets/
+│
+└── other project files
+```
+
+*The folder structure above is illustrative. Update it to match the actual repository.*
+
+## Installation and Setup
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/suruthi-1/Campus-Analytics.git
+```
+
+### 2. Open the project folder
+
+```bash
+cd Campus-Analytics
+```
+
+### 3. Install dependencies
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+### 4. Run the application
+
+```bash
+python -m streamlit run app.py
+```
+
+### 5. Open the application
+
+Streamlit will provide a local URL, usually:
+
+```text
+http://localhost:8501
+```
+
+Open the URL in your web browser.
+
+## Application Screenshots
+
+Screenshots of the application will be added here to demonstrate the dashboard, student records, academic analytics, and other implemented modules.
+
+## Project Objectives
+
+- Centralize college-related information.
+- Simplify student record management.
+- Support academic performance monitoring.
+- Present data through interactive visualizations.
+- Explore performance prediction and early identification of students requiring support.
+
 
 ## Features
 
@@ -85,19 +154,6 @@ bed capacity, timetable clashes) enforced in the data layer rather than only in 
 - **Colour-coded tables:** scores, attendance and statuses (Paid, Overdue, Low stock, Full) are colour-coded so problems stand out
 </details>
 
-## Screenshots
-
-<!-- Add your images to /screenshots, then remove this comment and use:
-| Dashboard | Student Profile |
-|---|---|
-| ![Dashboard](screenshots/dashboard.png) | ![Student Profile](screenshots/student-profile.png) |
-
-| Fees | Library | Timetable |
-|---|---|---|
-| ![Fees](screenshots/fees.png) | ![Library](screenshots/library.png) | ![Timetable](screenshots/timetable.png) |
--->
-
-*Screenshots coming soon. Run the app with demo data to see every page populated.*
 
 ## Getting started
 
@@ -210,32 +266,6 @@ not beat that baseline, and the app reports this openly instead of hiding it.
 | Honest ML evaluation | Leakage removed; cross-validation against a baseline |
 | Settings in one block | Thresholds are never duplicated across pages |
 
-## Project structure
-
-```
-Campus-Analytics/
-├── app.py              # the application, organised into clear sections
-├── requirements.txt    # Python dependencies
-├── README.md
-├── LICENSE
-├── .gitignore          # keeps real data and local files out of Git
-├── screenshots/        # images used in this README
-└── database/           # created on first run (ignored by Git)
-    └── students.db
-```
-
-Inside `app.py`: settings → database → authentication → analytics and ML → theme → reusable UI
-pieces → pages → login and app shell.
-
-## Troubleshooting
-
-| Problem | Fix |
-|---|---|
-| `'streamlit' is not recognized` | Run it through Python: `python -m streamlit run app.py` |
-| `No module named ...` | Activate your virtual environment, then `python -m pip install -r requirements.txt` |
-| Locked out after failed logins | Wait 5 minutes, or delete `database/students.db` to start fresh (this erases all data) |
-| Port already in use | `python -m streamlit run app.py --server.port 8502` |
-| Charts or colours look different | Use a recent Streamlit version: `python -m pip install --upgrade streamlit` |
 
 ## Limitations
 
@@ -252,6 +282,14 @@ pieces → pages → login and app shell.
 - [ ] Exam schedule and results module
 - [ ] Email reminders for overdue fees and library books
 - [ ] PostgreSQL support and a Docker setup
+
+## Future Enhancements
+
+- Improve dashboard analytics.
+- Enhance prediction capabilities.
+- Add more reporting options.
+- Improve application security.
+- Expand administrative functionality.
 
 ## Author
 
