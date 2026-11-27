@@ -59,10 +59,6 @@ Campus-Analytics/
 *The folder structure above is illustrative. Update it to match the actual repository.*
 
 
-## Application Screenshots
-
-Screenshots of the application will be added here to demonstrate the dashboard, student records, academic analytics, and other implemented modules.
-
 ## Project Objectives
 
 - Centralize college-related information.
@@ -195,8 +191,7 @@ not beat that baseline, and the app reports this openly instead of hiding it.
 - [ ] Exam schedule and results module
 - [ ] Email reminders for overdue fees and library books
 - [ ] PostgreSQL support and a Docker setup
-
-## Grab
+## Application Grab
 
 ### 1. Dashboard
 ![Dashboard](dashboard.png)
