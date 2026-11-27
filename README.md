@@ -58,41 +58,6 @@ Campus-Analytics/
 
 *The folder structure above is illustrative. Update it to match the actual repository.*
 
-## Installation and Setup
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/suruthi-1/Campus-Analytics.git
-```
-
-### 2. Open the project folder
-
-```bash
-cd Campus-Analytics
-```
-
-### 3. Install dependencies
-
-```bash
-python -m pip install -r requirements.txt
-```
-
-### 4. Run the application
-
-```bash
-python -m streamlit run app.py
-```
-
-### 5. Open the application
-
-Streamlit will provide a local URL, usually:
-
-```text
-http://localhost:8501
-```
-
-Open the URL in your web browser.
 
 ## Application Screenshots
 
@@ -231,13 +196,6 @@ not beat that baseline, and the app reports this openly instead of hiding it.
 - [ ] Email reminders for overdue fees and library books
 - [ ] PostgreSQL support and a Docker setup
 
-## Future Enhancements
-
-- Improve dashboard analytics.
-- Enhance prediction capabilities.
-- Add more reporting options.
-- Improve application security.
-- Expand administrative functionality.
 
 ## Author
 
