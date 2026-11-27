@@ -237,6 +237,10 @@ not beat that baseline, and the app reports this openly instead of hiding it.
 
 ### 15. Reports and Export
 ![Reports and Export](reports-export.png)
+
+## Application Workflow
+![Workflow](Workflow.gif)
+
 ## Author
 
 **Suruthi D** · [GitHub](https://github.com/suruthi-1)
