@@ -194,7 +194,7 @@ not beat that baseline, and the app reports this openly instead of hiding it.
 ## Application Grab
 
 ### 1. Dashboard
-![Dashboard](dashboard.png)
+![Dashboard](project_images/dashboard.png)
 
 ### 2. Student Records
 ![Student Records](student-records.png)
