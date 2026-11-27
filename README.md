@@ -199,49 +199,49 @@ not beat that baseline, and the app reports this openly instead of hiding it.
 ## Grab
 
 ### 1. Dashboard
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](dashboard.png)
 
 ### 2. Student Records
-![Student Records](screenshots/student-records.png)
+![Student Records](student-records.png)
 
 ### 3. Student Profile
-![Student Profile](screenshots/student-profile.png)
+![Student Profile](student-profile.png)
 
 ### 4. Faculty
-![Faculty](screenshots/faculty.png)
+![Faculty](faculty.png)
 
 ### 5. Fees
-![Fees](screenshots/fees.png)
+![Fees](fees.png)
 
 ### 6. Lab Equipment
-![Lab Equipment](screenshots/lab-equipment.png)
+![Lab Equipment](lab-equipment.png)
 
 ### 7. Library
-![Library](screenshots/library.png)
+![Library](library.png)
 
 ### 8. Hostel
-![Hostel](screenshots/hostel.png)
+![Hostel](hostel.png)
 
 ### 9. Timetable
-![Timetable](screenshots/timetable.png)
+![Timetable](timetable.png)
 
 ### 10. Academic Performance
-![Academic Performance](screenshots/academic-performance.png)
+![Academic Performance](academic-performance.png)
 
 ### 11. Attendance
-![Attendance](screenshots/attendance.png)
+![Attendance](attendance.png)
 
 ### 12. Department Analysis
-![Department Analysis](screenshots/department-analysis.png)
+![Department Analysis](department-analysis.png)
 
 ### 13. Performance Prediction
-![Performance Prediction](screenshots/performance-prediction.png)
+![Performance Prediction](performance-prediction.png)
 
 ### 14. At-Risk Students
-![At-Risk Students](screenshots/at-risk-students.png)
+![At-Risk Students](at-risk-students.png)
 
 ### 15. Reports and Export
-![Reports and Export](screenshots/reports-export.png)
+![Reports and Export](reports-export.png)
 ## Author
 
 **Suruthi D** · [GitHub](https://github.com/suruthi-1)
