@@ -30,19 +30,6 @@ Campus Analytics is a web-based application developed using Python and Streamlit
 
 The application aims to make academic monitoring and administrative data management easier through organized modules, interactive visualizations, and performance insights.
 
-## Key Features
-
-- **Dashboard:** Overview of important college performance information.
-- **Student Records:** Add, view, edit, and manage student information.
-- **Academic Performance:** Monitor and analyse student academic results.
-- **Performance Analytics:** Explore academic trends through visualizations.
-- **Performance Prediction:** Explore student performance prediction.
-- **At-Risk Student Analysis:** Identify students who may need additional academic support.
-- **Reports:** View and export available analytical information.
-- **Admin Settings:** Manage available application settings.
-
-*Note: Features and modules depend on the functionality implemented in the current project version.*
-
 ## Technology Stack
 
 | Technology | Purpose |
@@ -119,41 +106,22 @@ Screenshots of the application will be added here to demonstrate the dashboard, 
 - Present data through interactive visualizations.
 - Explore performance prediction and early identification of students requiring support.
 
+## 🚀 Features
 
-## Features
+- 🎓 **Student Management:** Add, search, edit, delete and manage student records, profiles and academic details.
+- 📊 **Academic Analytics:** Track marks, grades, attendance, department performance and at-risk students.
+- 🤖 **Performance Prediction:** Predict student performance using a Random Forest machine learning model.
+- 👨‍🏫 **Faculty Management:** Maintain faculty details, experience and department-wise statistics.
+- 💳 **Fee Management:** Track fee payments, balances, overdue fees and receipts.
+- 📚 **Library Management:** Manage books, issues, returns, renewals and fines.
+- 🏠 **Hostel Management:** Manage room allocation, occupancy and resident details.
+- 🔬 **Lab Inventory:** Track equipment, availability, condition and stock levels.
+- 🗓️ **Timetable Management:** Organize schedules and detect faculty and classroom clashes.
+- 📈 **Interactive Dashboard:** View key performance indicators, charts and campus insights.
+- 📑 **Reports & Export:** Generate CSV reports and Excel workbooks.
+- ⚙️ **Admin Settings:** Manage passwords, demo data and database backups.
 
-<details open>
-<summary><b>🎓 Students and academics</b></summary>
-
-- **Student Records:** add, search, filter, edit, delete with confirmation, bulk CSV import with a template and per-row error messages
-- **Student Profile:** 360° view with college and department rank, comparison against averages, fee balance, library loans, hostel room and next-step tips
-- **Academic Performance:** marks distribution, grade breakdown, pass rate, students below the pass mark
-- **Attendance:** eligibility against the minimum, department comparison, low-attendance list
-- **Department Analysis:** comparison charts and a department × year heatmap
-- **At-Risk Students:** low marks and low attendance flags, filters, CSV download
-- **Performance Prediction:** Random Forest evaluated with cross-validation against a baseline
-</details>
-
-<details open>
-<summary><b>🏫 Campus operations</b></summary>
-
-- **Faculty:** directory, status, experience, students-per-faculty ratio by department
-- **Fees:** assign to one student or a whole department/year, part payments, overdue tracking, defaulter list, printable receipts
-- **Lab Equipment:** inventory, condition tracking, issue and return, low-stock alerts, asset value
-- **Library:** issue, **return** and **renew** books with automatic fines, due-soon and overdue lists, loan history
-- **Hostel:** rooms and beds by block, occupancy charts, allot and vacate residents
-- **Timetable:** weekly grid per department and year, clash detection for faculty and rooms, faculty schedule
-</details>
-
-<details open>
-<summary><b>📊 Reporting and administration</b></summary>
-
-- **Dashboard:** KPI cards, automatic insights, charts, and a campus operations summary
-- **Reports:** CSV per module and one Excel workbook with a sheet for each
-- **Admin Settings:** change password, load or remove demo data, database backup download
-- **Colour-coded tables:** scores, attendance and statuses (Paid, Overdue, Low stock, Full) are colour-coded so problems stand out
-</details>
-
+*Note: Features and modules depend on the functionality implemented in the current project version.*
 
 ## Try it in 2 minutes
 
