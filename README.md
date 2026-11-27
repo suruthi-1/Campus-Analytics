@@ -196,7 +196,52 @@ not beat that baseline, and the app reports this openly instead of hiding it.
 - [ ] Email reminders for overdue fees and library books
 - [ ] PostgreSQL support and a Docker setup
 
+## Grab
 
+### 1. Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### 2. Student Records
+![Student Records](screenshots/student-records.png)
+
+### 3. Student Profile
+![Student Profile](screenshots/student-profile.png)
+
+### 4. Faculty
+![Faculty](screenshots/faculty.png)
+
+### 5. Fees
+![Fees](screenshots/fees.png)
+
+### 6. Lab Equipment
+![Lab Equipment](screenshots/lab-equipment.png)
+
+### 7. Library
+![Library](screenshots/library.png)
+
+### 8. Hostel
+![Hostel](screenshots/hostel.png)
+
+### 9. Timetable
+![Timetable](screenshots/timetable.png)
+
+### 10. Academic Performance
+![Academic Performance](screenshots/academic-performance.png)
+
+### 11. Attendance
+![Attendance](screenshots/attendance.png)
+
+### 12. Department Analysis
+![Department Analysis](screenshots/department-analysis.png)
+
+### 13. Performance Prediction
+![Performance Prediction](screenshots/performance-prediction.png)
+
+### 14. At-Risk Students
+![At-Risk Students](screenshots/at-risk-students.png)
+
+### 15. Reports and Export
+![Reports and Export](screenshots/reports-export.png)
 ## Author
 
 **Suruthi D** · [GitHub](https://github.com/suruthi-1)
