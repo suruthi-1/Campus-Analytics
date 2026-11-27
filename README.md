@@ -197,46 +197,46 @@ not beat that baseline, and the app reports this openly instead of hiding it.
 ![Dashboard](project_images/dashboard.png)
 
 ### 2. Student Records
-![Student Records](student-records.png)
+![Student Records](project_images/student-records.png)
 
 ### 3. Student Profile
-![Student Profile](student-profile.png)
+![Student Profile](project_images/student-profile.png)
 
 ### 4. Faculty
-![Faculty](faculty.png)
+![Faculty](project_images/faculty.png)
 
 ### 5. Fees
-![Fees](fees.png)
+![Fees](project_images/fees.png)
 
 ### 6. Lab Equipment
-![Lab Equipment](lab-equipment.png)
+![Lab Equipment](project_images/lab-equipment.png)
 
 ### 7. Library
-![Library](library.png)
+![Library](project_images/library.png)
 
 ### 8. Hostel
-![Hostel](hostel.png)
+![Hostel](project_images/hostel.png)
 
 ### 9. Timetable
-![Timetable](timetable.png)
+![Timetable](project_images/timetable.png)
 
 ### 10. Academic Performance
-![Academic Performance](academic-performance.png)
+![Academic Performance](project_images/academic-performance.png)
 
 ### 11. Attendance
-![Attendance](attendance.png)
+![Attendance](project_images/attendance.png)
 
 ### 12. Department Analysis
-![Department Analysis](department-analysis.png)
+![Department Analysis](project_images/department-analysis.png)
 
 ### 13. Performance Prediction
-![Performance Prediction](performance-prediction.png)
+![Performance Prediction](project_images/performance-prediction.png)
 
 ### 14. At-Risk Students
-![At-Risk Students](at-risk-students.png)
+![At-Risk Students](project_images/at-risk-students.png)
 
 ### 15. Reports and Export
-![Reports and Export](reports-export.png)
+![Reports and Export](project_images/reports-export.png)
 
 ## Application Workflow
 ![Workflow](Workflow.gif)
