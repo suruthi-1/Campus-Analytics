@@ -14,11 +14,8 @@
   <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-green">
 </p>
 
-<!-- After you add screenshots to a /screenshots folder, replace this comment with:
-<p align="center"><img src="screenshots/dashboard.png" width="92%" alt="Campus Analytics dashboard"></p>
--->
 
----
+
 
 # Campus Analytics – College Performance Management System
 
